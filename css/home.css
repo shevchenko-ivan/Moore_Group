@@ -42,4 +42,47 @@ header .top nav{
   text-decoration: none;
   margin-left: 90px;
 }
+
+
+.title-animation{
+  margin-top: 100px;
+}
+
+.title{
+  margin-top: 150px;
+}
+
+.title h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 120%;
+  color: #FFF8EE;
+}
+
+.title h2{
+  margin-top: -20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 120%;
+  color: #FFF8EE;
+}
+
+.title p{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 20px;
+  color: #F6B289;
+}
+
+.animation{
+  width: 650px;
+  height: 650px;
+  background: #F5B287;
+}
+
+
 /*____________________________________________Header_____________________________________*/
