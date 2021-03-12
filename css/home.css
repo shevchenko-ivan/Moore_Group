@@ -17,6 +17,10 @@ header{
   background: #864C36;
 }
 
+.container{
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
 .top {
   position: fixed;
   top: 0px;
