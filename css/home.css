@@ -10,16 +10,30 @@
 /*____________________________________________text-sstyle_____________________________________*/
 
 
+/*____________________________________________linde-bg_____________________________________*/
+.lines-bg{
+  position:fixed;
+  top: 0px;
+  height: 100vh;
+  z-index: 2;
+  width: 100%;
+  margin: auto;
+  background-image: url(../img/lines.svg);
+  background-size: 100% 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*____________________________________________linde-bg_____________________________________*/
+
+
 /*____________________________________________Header_____________________________________*/
 header{
+  top: 0px;
   height: 940px;
   width: 100%;
   background: #864C36;
 }
 
-.container{
-  border: 1px dashed rgba(0, 0, 0, 0.2);
-}
 
 .top {
   position: fixed;
@@ -52,11 +66,17 @@ header .top nav{
 
 
 .title-animation{
-  margin-top: 100px;
+  padding: 110px;
+
+}
+
+.title-animation .row{
+  display: flex;
+  align-items: center;
 }
 
 .title{
-  margin-top: 150px;
+  z-index: 4;
 }
 
 .title h1{
@@ -68,7 +88,6 @@ header .top nav{
 }
 
 .title h2{
-  margin-top: -20px;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -88,7 +107,8 @@ header .top nav{
 .animation{
   width: 650px;
   height: 650px;
-  background: #F5B287;
+  z-index: 3;
+
 }
 
 
