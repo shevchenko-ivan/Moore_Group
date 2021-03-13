@@ -5,23 +5,16 @@
 }
 
 
-/*____________________________________________text-sstyle_____________________________________*/
-
-/*____________________________________________text-sstyle_____________________________________*/
-
-
 /*____________________________________________linde-bg_____________________________________*/
 .lines-bg{
   position:fixed;
   top: 0px;
   height: 100vh;
   z-index: 2;
-  width: 100%;
-  margin: auto;
+
   background-image: url(../img/lines.svg);
   background-size: 100% 100%;
-  margin-right: auto;
-  margin-left: auto;
+
 }
 /*____________________________________________linde-bg_____________________________________*/
 
@@ -29,7 +22,8 @@
 /*____________________________________________Header_____________________________________*/
 header{
   top: 0px;
-  height: 940px;
+  min-height: 940px;
+  height: 100vh;
   width: 100%;
   background: #864C36;
 }
@@ -105,11 +99,52 @@ header .top nav{
 }
 
 .animation{
+  display: flex;
+  justify-content: flex-end;
   width: 650px;
   height: 650px;
   z-index: 3;
-
 }
 
-
 /*____________________________________________Header_____________________________________*/
+
+
+
+/*____________________________________________Main_____________________________________*/
+
+/*____________________________________________--1--_____________________________________*/
+.section-1{
+  margin-top: 100px;
+}
+
+.section-1 .text-arrow{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-1 .text-arrow img{
+  margin-right: -16px;
+}
+
+.section-1 hr{
+  margin-left: -2px;
+  height: 5px;
+}
+
+.section-1 h3{
+  margin-left: 18px;
+  width: 880px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ED7339;
+}
+.section-1 .row-1{
+  display: flex;
+  align-items: center;
+}
+/*____________________________________________--1--_____________________________________*/
+
+
+/*____________________________________________Main_____________________________________*/
