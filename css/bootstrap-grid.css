@@ -33,7 +33,7 @@ html {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 760px;
+    max-width: 740px;
   }
 }
 
@@ -51,7 +51,7 @@ html {
 
 @media (min-width: 1280px) {
   .container {
-    max-width: 1250px;
+    max-width: 1230px;
   }
 }
 /*_________________добавил контейнер ↓_______________*/
