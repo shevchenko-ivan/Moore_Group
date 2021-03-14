@@ -312,8 +312,39 @@ header .top nav {
   color: #FFF8EE;
 }
 
-
 /*____________________________________________--3--_____________________________________*/
+
+
+/*____________________________________________--4--_____________________________________*/
+
+.section-4{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 0;
+}
+
+.section-4 .row-1 {
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.section-4 h3 {
+  font-style: normal;
+  max-width: 880px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  margin-left: 18px;
+  color: #ED7339;
+}
+
+.section-4 hr {
+  margin-left: 0px;
+  height: 5px;
+}
+/*____________________________________________--4--_____________________________________*/
 
 
 /*____________________________________________Main_____________________________________*/
