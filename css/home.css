@@ -691,15 +691,15 @@ footer .row-1 button{
     width: 200px;
   }
 
+  footer .row-1 .email-input{
+    margin-top: 50px;
+  }
   footer .row-1 input{
-    margin-top: 40px;
     width: 290px;
   }
 }
 @media (max-width: 1024px) {
-  .section-4 .block:nth-child(2) {
-    padding-top: 500px;
-  }
+
 
 
   footer .links a{
@@ -707,20 +707,39 @@ footer .row-1 button{
   }
 
   footer .row-1 input{
-    width: 200px;
+    width: 95%;
   }
-
+  .davider{
+    display: none;
+  }
+  .section-4 .row-1 {
+    padding-top: 120px;
+  }
+  .section-4 .block:nth-child(1) {
+    grid-column: 1 / 4;
+  }
+  .section-4 .block:nth-child(2) {
+    display: none;
+  }
 }
 
 
 @media (max-width: 768px) {
+
+  footer .row-1{
+    margin-top: 250px;
+  }
+
+  footer .links{
+    margin-top: 50px;
+  }
 
   header {
     height: 640px;
   }
 
   header .links a {
-    margin-left: 50px;
+    margin-left:25px;
   }
 
   .title h1 {
@@ -867,9 +886,7 @@ footer .row-1 button{
     display: none;
   }
 
-  .davider{
-    display: none;
-  }
+
 
   .section-4 .btn-black {
     width: 100%;
