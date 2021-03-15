@@ -20,14 +20,14 @@ html {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (min-width: 576px) {
   .container {
-    max-width: 560px;
+    max-width: 540px;
   }
 }
 
