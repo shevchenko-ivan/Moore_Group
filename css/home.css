@@ -871,6 +871,13 @@ footer .row-1 button{
     margin-top: 200px;
   }
   footer .email-input{
-    display: none;
+    margin-top: 40px;
+    align-items: center;
   }
+  footer .links {
+    margin-top: 40px;
+  }
+  footer .links a {
+    margin-left: 0px;
+}
 }
