@@ -60,10 +60,14 @@ header {
   align-items: center;
 }
 
-header .top nav {
+header .top .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.burger{
+  display: none;
 }
 
 header .links a {
@@ -660,6 +664,14 @@ footer .row-1 input::placeholder {
 }
 
 @media (max-width: 1024px) {
+  .burger{
+    display: block;
+  }
+
+  header .links{
+    display: none;
+  }
+
   .lines-bg{
     display: none;
   }
@@ -684,6 +696,7 @@ footer .row-1 input::placeholder {
 }
 
 @media (max-width: 768px) {
+
   footer .row-1 {
     margin-top: 250px;
   }

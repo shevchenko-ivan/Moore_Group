@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Our Approach</title>
     <link rel="stylesheet" type="text/css" href="css/оur_аpproach.css">
+    <link rel="stylesheet" type="text/css" href="css/style-b.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -22,10 +23,28 @@
     </div>
 
 
-    
+
+
+
     <header>
       <div class="top">
-        <nav class="container">
+        <!-- partial:index.partial.html -->
+        <div class="burger">
+           <span></span>
+        </div>
+        <nav>
+           <ul class="main">
+              <li><a class="cl" href="index.html">Homepage</a></li>
+              <li><a class="cl" id="active-link" href="оur_аpproach.html">Our Approach</a></li>
+              <li><a class="cl" href="#">About</a></li>
+              <li><a class="cl" href="#">Contact</a></li>
+           </ul>
+        </nav>
+        <div class="overlay"></div>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./js/script-b.js"></script>
+
+        <div class="container">
           <img src="img/logo.svg" alt="Logo">
           <div class="links">
             <a href="index.html">Homepage</a>
@@ -33,7 +52,7 @@
             <a href="#">About</a>
             <a href="#">Contact</a>
           </div>
-        </nav>
+        </div>
       </div>
       <div class="container title-animation">
         <div class="row justify-content-between">
