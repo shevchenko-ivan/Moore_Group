@@ -128,7 +128,7 @@ header .links a {
   font-size: 24px;
   line-height: 36px;
   margin-top: 20px;
-  color: #F6B289;
+  color: #ED7339;
 }
 
 .animation {
@@ -738,7 +738,7 @@ footer .row-1 input::placeholder {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .section-3-2 h5{
     width: 100%;
     text-align: center;

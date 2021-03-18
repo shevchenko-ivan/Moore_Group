@@ -3,4 +3,4 @@ $('.burger, .cl, .overlay').click(function(){
   $('.overlay').toggleClass('show');
   $('nav').toggleClass('show');
   $('body').toggleClass('overflow');
-}); 
+});
