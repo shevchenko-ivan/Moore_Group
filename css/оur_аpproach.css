@@ -9,6 +9,7 @@ a:hover {
 }
 
 
+
 /*____________________________________________linde-bg_____________________________________*/
 
 .lines-bg .container {
@@ -758,11 +759,12 @@ footer .row-1 input::placeholder {
     margin-bottom: 30px;
   }
   .section-5-2 h4 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 173%;
   }
   .section-5-2 h3 {
     font-size: 20px;
+    line-height: 150%;
   }
   .section-5-2 .block-1 .main-text{
     font-weight: 300;
