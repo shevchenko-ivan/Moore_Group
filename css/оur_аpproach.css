@@ -283,7 +283,6 @@ main .davider {
   background-image: url(../img/section-5-2.svg);
   background-size: 100% 100%;
   background-color: #000;
-
 }
 
 .section-5-2 .row-1{
@@ -742,6 +741,58 @@ footer .row-1 input::placeholder {
     background-image: url(../img/section-4-2-md.svg);
   }
 
+  .section-5-2 .row-1{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .section-5-2{
+    height: 100%;
+    width: 100%;
+    background-image: none;
+    background-size: 100% 100%;
+    background-color: #000;
+  }
+
+  .section-5-2 .block-2 img{
+    margin-bottom: 30px;
+  }
+  .section-5-2 h4 {
+    font-size: 16px;
+    line-height: 173%;
+  }
+  .section-5-2 h3 {
+    font-size: 20px;
+  }
+  .section-5-2 .block-1 .main-text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 173%;
+  }
+
+  .section-5-2 h2 {
+    margin-top: 0px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .section-5-2 .row-1 .block-1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: 1 / 1;
+  }
+
+  .section-5-2 .row-1 .block-2{
+    padding-top: 0px;
+    grid-column: 1 / 1;
+  }
+
+  .section-5-2 .block-2 p {
+    padding-bottom: 50px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
   .section-4 .row-1 {
     display: none;
   }
@@ -750,6 +801,7 @@ footer .row-1 input::placeholder {
     margin-top: 50px;
     margin-bottom: 25px;
   }
+
   .section-4 h3,
   .section-5 h3 {
     font-size: 32px;
