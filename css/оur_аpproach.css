@@ -13,6 +13,7 @@ a:hover {
 
 .burger{
   display: none;
+  margin-top: -10px;  
 }
 
 .lines-bg .container {
@@ -59,8 +60,8 @@ header {
   background: #fff;
   border-bottom: 1px solid #877672;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 header .top .container{

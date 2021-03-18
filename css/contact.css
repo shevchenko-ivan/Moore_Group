@@ -1,0 +1,145 @@
+header {
+  background: #F6B289;
+}
+
+h2{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 150%;
+  color: #FFF8EE;
+}
+
+h3{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 150%;
+  color: #ED7339;
+}
+
+h4{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  color: #000000;
+}
+
+
+/*____________________________________________---2---_____________________________________*/
+
+.section-2-3{
+  background-color: #000;
+  width: 100%;
+  background-image: url(../img/bg-2-3.svg);
+  background-size: 100% 100%;
+}
+
+
+.section-2-3 .container .block-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 110px;
+}
+
+.section-2-3 .container .block-2 .card:nth-child(1) {
+  grid-column: 1 / 2;
+}
+.section-2-3 .container .block-2 .card:nth-child(2) {
+  grid-column: 3 / 4;
+}
+.section-2-3 .container .block-2 .card:nth-child(3) {
+  grid-column: 5 / 6;
+}
+
+.section-2-3 h3{
+  width: 650px;
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+
+.section-2-3 .card h4{
+  color: #FFF8EE;
+}
+.section-2-3 .card p{
+  color: #FFF8EE;
+}
+
+/*____________________________________________---2---_____________________________________*/
+
+
+
+/*____________________________________________---Adaptive---_____________________________________*/
+@media (max-width: 768px) {
+
+  h2{
+    font-size: 40px;
+    line-height: 150%;
+  }
+
+  h3{
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  h4{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 36px;
+  }
+
+  p{
+    font-size: 14px;
+    line-height: 170%;
+  }
+
+/*____________________________________________---2↓---_____________________________________*/
+  .section-2-3{
+    background-image: url(../img/bg-2-3-md.svg);
+    background-size: 100% 100%;
+  }
+
+  .section-2-3 .container .block-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 50px;
+  }
+  .section-2-3 .container .block-2 hr{
+    display: none;
+  }
+
+  .section-2-3 .container .block-2 .card:nth-child(1) {
+    grid-column: 1 / 1;
+  }
+  .section-2-3 .container .block-2 .card:nth-child(2) {
+    grid-column: 1 / 1;
+  }
+  .section-2-3 .container .block-2 .card:nth-child(3) {
+    grid-column: 1 / 1;
+  }
+
+  .section-2-3 h3{
+    padding-bottom: 0;
+  }
+
+  .section-2-3 h3{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  .section-2-3 .card h4{
+    padding-top: 60px;
+  }
+}

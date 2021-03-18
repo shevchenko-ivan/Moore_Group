@@ -177,7 +177,6 @@ p{
 .section-4-3{
   display: grid;
   justify-content: center;
-  grid-template-rows:  560;
   margin-top: 200px;
   max-height: 680px;
   width: 100%;
@@ -201,19 +200,6 @@ p{
   margin-bottom: 20px;
   color: #3C2829;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .feedback-slider p{
   margin-top: 20px;
@@ -319,25 +305,41 @@ a.feedback-slide_btn {
     right: 50px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*____________________________________________---4↑---_____________________________________*/
+/*____________________________________________---5↓---_____________________________________*/
+.section-5-3 {
+  margin-top: 100px;
+}
+
+.section-5-3 .block{
+  margin-top: 70px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.section-5-3 h3{
+  text-align: center;
+}
+
+.section-5-3 h4{
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.section-5-3 img{
+  width: 80%;
+  grid-column: 2 / 3;
+}
+.section-5-3 .text {
+  grid-column: 3 / 5;
+}
+
+/*____________________________________________---5↑---_____________________________________*/
 
 
 /*____________________________________________---Adaptive---_____________________________________*/
@@ -451,6 +453,53 @@ a.feedback-slide_btn {
     margin-top: 25px;
 
   }
+  /*____________________________________________---4↓---_____________________________________*/
+  .section-4-3 {
+    margin-top: 50px;
+  }
+  .feedback-next_btn, .feedback-previous_btn{
+    display: none;
+  }
+  .section-4-3 h4{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF8EE;
+  }
+  /*____________________________________________---5↓---_____________________________________*/
+
+  .section-5-3 {
+    margin-top: 50px;
+  }
+
+  .section-5-3 .block{
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+  }
+
+  .section-5-3 h4{
+    margin-bottom: 10px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .section-5-3 img{
+    width: 100%;
+    grid-column: 1 / 1;
+  }
+  .section-5-3 .text {
+    grid-column: 1 / 1;
+  }
+
 
 }
   /*____________________________________________---Adaptive---_____________________________________*/
