@@ -11,6 +11,10 @@ a:hover {
 
 /*____________________________________________linde-bg_____________________________________*/
 
+.burger{
+  display: none;
+}
+
 .lines-bg .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -59,7 +63,7 @@ header {
   align-items: center;
 }
 
-header .top nav {
+header .top .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,6 +81,7 @@ header .top nav {
 #active-link{
  color: #ED7339;
 }
+
 header .links a {
   font-family: 'Poppins';
   font-style: normal;
@@ -715,6 +720,14 @@ footer .row-1 input::placeholder {
 }
 
 @media (max-width: 1024px) {
+  .burger{
+    display: block;
+  }
+
+  header .links{
+    display: none;
+  }
+
   .lines-bg{
     display: none;
   }

@@ -9,8 +9,11 @@ a:hover {
 }
 
 
-
 /*____________________________________________linde-bg_____________________________________*/
+
+.burger{
+  display: none;
+}
 
 .lines-bg .container {
   display: grid;
@@ -66,21 +69,6 @@ header .top .container{
   align-items: center;
 }
 
-.burger{
-  display: none;
-}
-
-header .links a {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  color: #000000;
-  text-decoration: none;
-  margin-left: 90px;
-}
-
 .links a:hover {
   color: #ED7339;
 }
@@ -92,6 +80,17 @@ header .links a {
 
 #active-link{
  color: #ED7339;
+}
+
+header .links a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 90px;
 }
 
 .title-animation {
