@@ -753,6 +753,10 @@ footer .row-1 input::placeholder {
     position: inherit;
     background-image: url(../img/section-4-2-md.svg);
   }
+  #full-with{
+    width: 100%;
+    max-width: 100%;
+  }
 
   .section-5-2 .row-1{
     display: grid;
