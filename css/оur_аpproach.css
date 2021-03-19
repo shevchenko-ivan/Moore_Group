@@ -193,6 +193,8 @@ header .links a {
 }
 
 .section-4 .btn-black {
+  position: relative;
+  z-index: 99999;
   width: 50%;
   height: 50px;
   margin-top: 50px;
@@ -454,6 +456,8 @@ main .davider {
 }
 
 .section-5 .card-text .btn-black {
+  position: relative;
+  z-index: 99999;
   width: 100%;
   height: 50px;
   margin-top: 50px;
