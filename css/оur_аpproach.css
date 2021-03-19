@@ -132,7 +132,7 @@ header .links a {
   color: #ED7339;
 }
 
-.animation {
+.title-animation .animation {
   display: flex;
   justify-content: flex-end;
   width: 650px;
@@ -210,7 +210,7 @@ header .links a {
   margin-bottom: 100px;
 }
 
-lottie-player {
+header lottie-player {
   width: 100%;
 }
 
