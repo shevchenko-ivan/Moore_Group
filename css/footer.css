@@ -20,10 +20,11 @@ footer .follow-us {
   order: 1;
 }
 
-footer .first{
+footer .first {
   order: 2;
 }
-footer .secondary{
+
+footer .secondary {
   order: 3;
 }
 
@@ -42,7 +43,6 @@ footer .follow-us img {
   margin-top: 40px;
   float: left;
 }
-
 
 footer .links a:hover {
   color: #ED7339;
@@ -158,10 +158,10 @@ footer .row-1 input::placeholder {
   footer .links a {
     margin-left: 0px;
   }
-  footer .follow-us{
+  footer .follow-us {
     margin-left: 40px;
   }
-  footer .logo{
+  footer .logo {
     margin-bottom: 30px;
   }
 }
@@ -170,25 +170,20 @@ footer .row-1 input::placeholder {
   footer {
     margin-top: 0px;
   }
-
   footer .row-1 {
     margin-top: 00px;
   }
-
   footer .links {
     margin-top: 40px;
   }
-
-  footer .follow-us{
+  footer .follow-us {
     margin-left: 0px;
     margin-top: 20px;
   }
-
   footer .email-input {
     margin-top: 40px;
     align-items: center;
   }
-
   footer .row-1 button {
     margin-top: auto;
     margin-left: -54px;
@@ -196,7 +191,6 @@ footer .row-1 input::placeholder {
   footer .row-1 input {
     width: 98%;
   }
-
   footer .links a {
     margin-left: 0px;
   }
@@ -217,21 +211,18 @@ footer .row-1 input::placeholder {
     margin-top: 30px;
     order: 3;
   }
-
   footer .follow-us img {
     margin-top: 30px;
   }
-
-  footer .first{
+  footer .first {
     order: 1;
   }
-  footer .secondary{
+  footer .secondary {
     order: 2;
   }
   footer .links a {
     margin-bottom: 30px;
   }
-
   footer .row-1 button {
     margin-top: 0;
     margin-left: -54px;
@@ -239,7 +230,6 @@ footer .row-1 input::placeholder {
   footer .row-1 input {
     width: 98%;
   }
-
   footer .row-1 {
     margin-top: 0;
     padding-top: 30px;

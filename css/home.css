@@ -11,7 +11,7 @@ a:hover {
 
 /*____________________________________________linde-bg_____________________________________*/
 
-.burger{
+.burger {
   display: none;
 }
 
@@ -46,6 +46,7 @@ a:hover {
 header {
   background: #864C36;
 }
+
 
 /*____________________________________________Header_____________________________________*/
 
@@ -325,7 +326,6 @@ main .davider {
 }
 
 
-
 /*____________________________________________--4--_____________________________________*/
 
 
@@ -446,14 +446,13 @@ main .davider {
 
 /*____________________________________________Footer_____________________________________*/
 
-footer {
+footer {}
 
-}
 
 /*____________________________________________Footer_____________________________________*/
 
 @media (max-width: 1440px) {
-    .section-5 .card-text h4 {
+  .section-5 .card-text h4 {
     font-size: 20px;
   }
   .section-4 img {
@@ -491,7 +490,7 @@ footer {
 }
 
 @media (max-width: 1024px) {
-  .lines-bg{
+  .lines-bg {
     display: none;
   }
   .section-4 .row-1 {
@@ -591,7 +590,6 @@ footer {
   .section-4 p {
     margin-top: 30px;
   }
-
   .section-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -621,37 +619,31 @@ footer {
   .section-5 .card-text p {
     font-size: 16px;
   }
-
 }
 
 @media (max-width: 576px) {
-  .section-1{
+  .section-1 {
     margin-top: 50px;
     padding-left: 15px;
   }
-
-  .section-1 .row-1 hr{
+  .section-1 .row-1 hr {
     display: none;
   }
-  .section-1 .row-1 h3{
+  .section-1 .row-1 h3 {
     margin-left: 0;
   }
-
   .section-1 .row-1 h3,
   .section-1 .row-2 h3,
-  .section-5 h3{
+  .section-5 h3 {
     font-size: 20px;
     line-height: 150%;
   }
-
-  .section-1 .text-arrow img{
+  .section-1 .text-arrow img {
     display: none;
   }
-
-  .section-1 .row-3{
+  .section-1 .row-3 {
     display: none;
   }
-
   .section-2 {
     padding: 15px;
     grid-template-columns: 1fr;
@@ -678,20 +670,16 @@ footer {
     margin-top: 40px;
     grid-column: 1 / 1;
   }
-
   .section-3 h3 {
     font-size: 20px;
   }
-
-  .section-3 .row-1 hr{
+  .section-3 .row-1 hr {
     display: none;
   }
-
-  .section-3 .row-1{
+  .section-3 .row-1 {
     display: grid;
     grid-template-columns: 1fr;
   }
-
   .section-3 .row-2 .box:nth-child(1) {
     grid-column: 1 / 1;
   }
@@ -701,49 +689,41 @@ footer {
   .section-3 .row-2 .box:nth-child(3) {
     grid-column: 1 / 1;
   }
-
   .section-3 {
     width: 100%;
     height: 600px;
     margin-top: 80px;
     background-image: url(../img/bg-3-sm.svg);
   }
-  .section-3 .box{
+  .section-3 .box {
     margin-left: 15px;
   }
   .section-3 h2 {
     margin-top: 60px;
     font-size: 40px;
   }
-
   .section-3 .row-2 p {
     font-size: 14px;
   }
-
-  .section-4{
+  .section-4 {
     padding: 15px;
   }
-
-  .section-4 .animation-2{
+  .section-4 .animation-2 {
     order: 1;
   }
-
-  .section-4 lottie-player{
+  .section-4 lottie-player {
     height: 280px;
     padding-bottom: 20px;
   }
-
-  .section-5{
+  .section-5 {
     margin-bottom: 50px;
   }
-  .section-5 .arrows-w{
+  .section-5 .arrows-w {
     display: none;
   }
-
   .section-5 .row-1 img {
     display: none;
   }
-
   .cards {
     grid-template-columns: 1fr;
     grid-row-gap: 50px;
@@ -752,29 +732,25 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
   }
-
   .section-5 .cards .card-text:nth-child(1) {
     grid-column: 1 / 1;
   }
-
   .section-5 .cards .card-text:nth-child(2) {
     grid-column: 1 / 1;
   }
-
   .section-5 .cards .card-text:nth-child(3) {
     grid-column: 1 / 1;
   }
   .section-5 .card-text p {
     min-height: 15px;
   }
-  .cards hr{
+  .cards hr {
     display: none;
   }
   .section-5 .card-text .btn-black {
     margin-top: 0px;
   }
-  .title p{
+  .title p {
     margin-top: 10px;
   }
-
 }
