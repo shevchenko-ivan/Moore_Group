@@ -323,7 +323,10 @@ main .davider {
   height: 5px;
   margin-top: -7px;
 }
-
+main .full-davider{
+  display: none;
+  height: 5px;
+}
 
 /*____________________________________________--4--_____________________________________*/
 
@@ -484,6 +487,15 @@ footer {}
   .davider {
     display: none;
   }
+  main .full-davider{
+    display: block;
+    height: 3px;
+    margin-top: 35px;
+  }
+
+  .section-5 {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -502,6 +514,23 @@ footer {}
 }
 
 @media (max-width: 768px) {
+  h2 {
+    font-size: 40px;
+    line-height: 150%;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 150%;
+  }
+  h4 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 36px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 170%;
+  }
   .section-1 .row-1 h3,
   .section-1 .row-2 h3 {
     font-size: 32px;
@@ -532,16 +561,17 @@ footer {}
     margin-top: 20px;
     grid-column: 2 / 5;
   }
-  .card hr {
-    height: 2px;
+  .section-2 .card hr {
+    display: none;
   }
-  .card {
-    display: grid;
-    justify-self: center;
+  .section-2 .card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 10px;
     width: 100%;
   }
-  .card h5 {
+  .section-2 .card h5 {
     margin-top: 15px;
     margin-bottom: 15px;
     font-style: normal;
@@ -550,9 +580,9 @@ footer {}
     line-height: 27px;
     letter-spacing: 0.05em;
   }
-  .card img {
-    width: 100%;
-    height: 280px;
+  .section-2 .card img {
+    width: 60%;
+    height: 200px;
   }
   .section-3 h2 {
     font-size: 48px;
@@ -581,11 +611,14 @@ footer {}
   }
   .section-4 h3,
   .section-5 h3 {
-    font-size: 32px;
+    font-size: 20px;
     line-height: 150%;
+    text-align: center;
   }
   .section-4 p {
     margin-top: 30px;
+    font-size: 14px;
+    line-height: 170%;
   }
   .section-4 {
     display: grid;
@@ -610,7 +643,7 @@ footer {}
     margin-top: 50px;
   }
   .section-5 .row-2 h4 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
   }
   .section-5 .card-text p {
