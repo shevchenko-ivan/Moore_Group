@@ -126,7 +126,7 @@ footer .row-1 input::placeholder {
 
 @media (max-width: 1440px) {
   footer {
-    margin-top: 150px;
+    margin-top: 0px;
   }
   footer .logo {
     width: 290px;
@@ -147,7 +147,7 @@ footer .row-1 input::placeholder {
 
 @media (max-width: 1200px) {
   footer {
-    margin-top: 200px;
+    margin-top: 0px;
   }
   footer .row-1 .email-input {
     margin-top: 50px;
@@ -168,11 +168,11 @@ footer .row-1 input::placeholder {
 
 @media (max-width: 768px) {
   footer {
-    margin-top: 200px;
+    margin-top: 0px;
   }
 
   footer .row-1 {
-    margin-top: 250px;
+    margin-top: 00px;
   }
 
   footer .links {
