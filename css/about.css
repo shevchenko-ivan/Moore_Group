@@ -148,7 +148,7 @@ p{
 
 .section-3-3 .btn-black{
   position: relative;
-  z-index: 99999;
+  z-index: 4;
   width: 50%;
   height: 50px;
   margin-top: 50px;
@@ -178,7 +178,7 @@ p{
 /*____________________________________________---4↓---_____________________________________*/
 .section-4-3{
   position: relative;
-  z-index: 99999;
+  z-index: 4;
   display: grid;
   justify-content: center;
   margin-top: 200px;
@@ -229,7 +229,7 @@ p{
 
 .feedback-slide {
   position: relative;
-  z-index: 99999;
+  z-index: 4;
   display: none;
   height: 100%;
   position: absolute;
@@ -479,6 +479,7 @@ a.feedback-slide_btn {
 
   .section-5-3 {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .section-5-3 .block{

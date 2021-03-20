@@ -1,0 +1,253 @@
+/*____________________________________________Footer_____________________________________*/
+
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 100px;
+  background-color: #fff;
+  z-index: 4;
+}
+
+footer .links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 70px;
+  grid-gap: 0;
+}
+
+footer .follow-us {
+  order: 1;
+}
+
+footer .first{
+  order: 2;
+}
+footer .secondary{
+  order: 3;
+}
+
+footer .follow-us h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+footer .follow-us img {
+  width: 25px;
+  height: 25px;
+  margin-top: 40px;
+  float: left;
+}
+
+
+footer .links a:hover {
+  color: #ED7339;
+}
+
+footer .links a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #877672;
+  margin-left: 50px;
+}
+
+footer .row-1,
+footer .row-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+footer .row-2 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 173%;
+  text-align: right;
+  color: #877672;
+  margin-bottom: 30px;
+}
+
+footer .row-1 h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+footer .row-1 input {
+  margin-top: 30px;
+  padding-left: 20px;
+  width: 94%;
+  height: 50px;
+  border: 1px solid #3C2829;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: capitalize;
+  color: #3C2829;
+}
+
+footer .row-1 button {
+  cursor: pointer;
+  position: relative;
+  margin-left: -54px;
+  width: 50px;
+  height: 50px;
+  background-color: #3C2829;
+  border-radius: 10px;
+  border: none;
+}
+
+footer .row-1 input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 173%;
+  text-transform: capitalize;
+  color: #3C2829;
+  opacity: 0.5;
+}
+
+
+/*____________________________________________Footer_____________________________________*/
+
+@media (max-width: 1440px) {
+  footer {
+    margin-top: 150px;
+  }
+  footer .logo {
+    width: 290px;
+  }
+  footer .row-1 input {
+    width: 255px;
+  }
+}
+
+@media (max-width: 1280px) {
+  footer .logo {
+    width: 200px;
+  }
+  footer .row-1 input {
+    width: 94%;
+  }
+}
+
+@media (max-width: 1200px) {
+  footer {
+    margin-top: 200px;
+  }
+  footer .row-1 .email-input {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  footer .links a {
+    margin-left: 0px;
+  }
+  footer .follow-us{
+    margin-left: 40px;
+  }
+  footer .logo{
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    margin-top: 200px;
+  }
+
+  footer .row-1 {
+    margin-top: 250px;
+  }
+
+  footer .links {
+    margin-top: 40px;
+  }
+
+  footer .follow-us{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  footer .email-input {
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  footer .row-1 button {
+    margin-top: auto;
+    margin-left: -54px;
+  }
+  footer .row-1 input {
+    width: 98%;
+  }
+
+  footer .links a {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  footer {
+    border-top: 1px dashed rgba(135, 118, 114, 0.2);
+    margin-top: 0px;
+  }
+  footer .links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 0;
+  }
+  footer .follow-us {
+    margin-top: 30px;
+    order: 3;
+  }
+
+  footer .follow-us img {
+    margin-top: 30px;
+  }
+
+  footer .first{
+    order: 1;
+  }
+  footer .secondary{
+    order: 2;
+  }
+  footer .links a {
+    margin-bottom: 30px;
+  }
+
+  footer .row-1 button {
+    margin-top: 0;
+    margin-left: -54px;
+  }
+  footer .row-1 input {
+    width: 98%;
+  }
+
+  footer .row-1 {
+    margin-top: 0;
+    padding-top: 30px;
+  }
+  footer .row-2 {
+    padding-top: 50px;
+  }
+  footer .row-2 p {
+    font-size: 12px;
+  }
+}

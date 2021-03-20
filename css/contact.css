@@ -1,6 +1,6 @@
-header {
-  z-index: 9999;
-  background: none;
+#h-height{
+  z-index: 9;
+  height: 0px;
 }
 
 h2{
@@ -37,12 +37,6 @@ p{
   color: #000000;
 }
 
-header {
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    background: #3C2829;
-}
 
 .forms {
 
@@ -89,9 +83,6 @@ header {
   max-height: 440px;
 }
 
-
-
-
 .form h4{
   margin-top: 180px;
   font-weight: 600;
@@ -120,6 +111,7 @@ header {
   border: none;
   margin-bottom: 20px;
 }
+
 
 .form input::placeholder{
   font-size: 18px;
@@ -203,8 +195,6 @@ header {
   margin-bottom: 110px;
 }
 
-
-
 /*____________________________________________---1---_____________________________________*/
 .section-1-4{
   margin-top: 85px;
@@ -267,9 +257,6 @@ header {
 
 /*____________________________________________---Adaptive---_____________________________________*/
 @media (max-width: 1440px){
-  footer {
-      margin-top: 0px;
-  }
   .form input{
     width: 45%;
   }
@@ -398,7 +385,7 @@ header {
 
   .form label input {
     margin-right: 20px;
-    
+
   }
 /*____________________________________________---2↓---_____________________________________*/
   .section-2-3{

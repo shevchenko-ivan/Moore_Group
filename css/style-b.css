@@ -18,7 +18,7 @@ body.overflow {
   top: 20px;
   right: 20px;
   border-radius: 4px;
-  z-index: 10;
+  z-index: 11;
 }
 .burger span {
   position: relative;
