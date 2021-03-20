@@ -11,9 +11,6 @@ a:hover {
 
 /*____________________________________________linde-bg_____________________________________*/
 
-.burger {
-  display: none;
-}
 
 .lines-bg .container {
   display: grid;
@@ -287,6 +284,8 @@ header {
 }
 
 .section-4 .btn-black {
+  position: relative;
+  z-index: 5;
   width: 50%;
   height: 50px;
   margin-top: 50px;
@@ -384,8 +383,6 @@ main .davider {
 .cards {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 255px;
-  grid-gap: 0;
   margin-top: 35px;
 }
 
@@ -515,7 +512,7 @@ footer {}
   }
   .section-2 {
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 2;
+    grid-gap: 2px;
     background-image: url(../img/dotted-line.svg);
     background-size: 100% 100%;
   }

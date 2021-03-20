@@ -57,6 +57,11 @@ p {
   color: #fff;
 }
 
+#sm-h2{
+  font-size: 48px;
+  line-height: 72px;
+}
+
 .section-1-3 .container .block-1 h3 {
   width: 975px;
   padding-top: 100px;

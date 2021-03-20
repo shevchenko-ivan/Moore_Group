@@ -11,10 +11,7 @@ a:hover {
 
 /*____________________________________________linde-bg_____________________________________*/
 
-.burger {
-  display: none;
-  margin-top: -10px;
-}
+
 
 .lines-bg .container {
   display: grid;
