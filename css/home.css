@@ -193,6 +193,17 @@ header {
   color: #ED7339;
 }
 
+.section-3 .count{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.section-3 .count h5{
+  color: #FFF8EE;
+  font-size: 35px;
+  line-height: 35px;
+}
+
 .section-3 hr {
   margin-left: 0px;
   height: 5px;
