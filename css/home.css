@@ -302,6 +302,11 @@ header {
   color: #FFF8EE;
 }
 
+
+.section-4 .btn-black:hover {
+    background: #ED7339;
+}
+
 lottie-player {
   width: 100%;
 }

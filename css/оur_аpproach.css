@@ -152,6 +152,7 @@ main .davider {
   z-index: 4;
   background-image: url(../img/arrow-2-section-3-2.svg);
   background-size: 100% 100%;
+  padding-bottom: 90px;
 }
 
 .section-3-2 .card {
