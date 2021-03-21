@@ -75,6 +75,16 @@ footer .row-2 p {
   margin-bottom: 30px;
 }
 
+footer .row-2 a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 173%;
+  text-align: right;
+  color: #877672;
+  margin-bottom: 30px;
+}
+
 footer .row-1 h5 {
   font-style: normal;
   font-weight: 600;
