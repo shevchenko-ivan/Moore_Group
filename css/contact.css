@@ -97,6 +97,9 @@ p {
   color: #FFF8EE;
 }
 
+.form .input-error {
+  border: 3px solid #EB5757;
+}
 .form input {
   position: relative;
   z-index: 4;
@@ -152,6 +155,27 @@ p {
   border: 1px solid #FFF8EE;
   box-sizing: border-box;
   border-radius: 4px;
+}
+
+.bage-approved{
+    background-color: #27AE60;
+}
+.bage-error{
+  background-color: #EB5757;
+}
+
+.bage-approved, .bage-error{
+  width: 94%;
+  height: 35px;
+  border-radius: 7px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.bage-approved img, .bage-error img{
+  margin-right: 10px;
 }
 
 .text-title p {
@@ -292,6 +316,9 @@ footer {
     width: 100%;
   }
   .form select {
+    width: 100%;
+  }
+  .bage-approved, .bage-error{
     width: 100%;
   }
 }

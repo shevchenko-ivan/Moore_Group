@@ -61,15 +61,21 @@
           <br>
           <p>Our 6th generation Al impacts our day to day in ways most don't even consider possible- Arden predicts sales volume.</p>
           <br>
-          <input type="name" name="name" placeholder="First Name" value="">
-          <input type="name" name="name" placeholder="Last Name"  value="">
-          <input type="email" name="email" placeholder="Email"  value="">
-          <input type="phone" name="phone" placeholder="Phone Number"  value="">
-          <select>
-            <option>I am a</option>
-            <option>I'm</option>
-          </select>
-          <button class="btn-black" href="#">Submit</button>
+          <form class="" action="index.html" method="post">
+            <input type="name" name="name" required placeholder="First Name" value="">
+            <input type="name" name="name" required placeholder="Last Name"  value="">
+            <input type="email" name="email" required placeholder="Email"  value="">
+            <input type="phone" name="phone" required placeholder="Phone Number"  value="">
+            <select>
+              <option>I am a</option>
+              <option>I'm</option>
+            </select>
+            <div class="bage-approved"> <img src="img/approved.svg" alt="">Success</div>
+            <br>
+            <div class="bage-error"><img src="img/error.svg" alt="">Error</div>
+            <button class="btn-black" href="#">Submit</button>
+          </form>
+
         </div>
       </div>
     </div>
