@@ -5,6 +5,10 @@
   margin-top: -10px;
 }
 
+.link-button{
+  z-index: 5;
+}
+
 header {
   top: 0px;
   height: 940px;
