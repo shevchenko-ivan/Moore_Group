@@ -340,6 +340,10 @@ main .davider {
   color: #000000;
 }
 
+.section-5 .card-text .btn-black:hover {
+  background-color: #ED7339;
+}
+
 .section-5 .arrows-w {
   width: 100%;
   margin-top: 40px;

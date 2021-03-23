@@ -177,6 +177,60 @@ header {
   background-size: 100% 100%;
 }
 
+
+/* animeation */
+@property --num {
+  syntax: "<integer>";
+  initial-value: 20;
+  inherits: false;
+}
+
+#value1::after {
+  content: counter(count);
+  animation: counter 1s linear 1 normal;
+  animation-direction: normal;
+  counter-reset: count 1;
+}
+
+@keyframes counter {
+  0% {
+    counter-increment: count 20;
+  }
+  10% {
+    counter-increment: count 19;
+  }
+  20% {
+    counter-increment: count 18;
+  }
+  30% {
+    counter-increment: count 17;
+  }
+  40% {
+    counter-increment: count 16;
+  }
+  50% {
+    counter-increment: count 15;
+  }
+  60% {
+    counter-increment: count 14;
+  }
+  70% {
+    counter-increment: count 13;
+  }
+  80% {
+    counter-increment: count 12;
+  }
+  90% {
+    counter-increment: count 11;
+  }
+  100% {
+    counter-increment: count 0.001;
+  }
+}
+/* animeation */
+
+
+
 .section-3 .row-1 {
   padding-top: 100px;
   display: flex;
@@ -371,6 +425,11 @@ main .full-davider{
 .section-5 .row-1 img {
   margin-right: -14px;
 }
+
+.section-5 .card-text .btn-black:hover {
+  background-color: #ED7339;
+}
+
 
 .section-5 h3 {
   width: 100%;
