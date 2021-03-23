@@ -100,6 +100,9 @@ header {
   justify-content: flex-end;
 }
 
+lottie-player {
+  height: 650px;
+}
 .section-1 .row-3 img {
   margin-top: 20px;
 }
