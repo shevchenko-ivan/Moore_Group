@@ -71,6 +71,10 @@ header {
   align-items: center;
 }
 
+.section-4 lottie-player {
+  margin-top: 150px;
+}
+
 .section-4 hr {
   width: 75px;
   margin-left: 0px;
@@ -113,10 +117,6 @@ header {
   text-transform: uppercase;
   color: #FFF8EE;
   margin-bottom: 100px;
-}
-
-header lottie-player {
-  width: 100%;
 }
 
 .section-4 .block:nth-child(1) {
@@ -230,8 +230,19 @@ main .davider {
   font-size: 18px;
   line-height: 173%;
   color: #877672;
+
 }
 
+.section-5-2 .block-1 a{
+  text-decoration-color: #ED7339;
+}
+.section-5-2 .block-1 a:hover{
+  color: #ED7339;
+}
+
+.section-5-2 .block-1 .main-text a{
+    color: #fff;
+}
 .section-5-2 .block-1 .main-text {
   margin-top: 15px;
   font-style: normal;
@@ -239,6 +250,8 @@ main .davider {
   font-size: 18px;
   line-height: 170%;
   color: #FFF8EE;
+  position: relative;
+  z-index: 5;
 }
 
 .section-5-2 h3 {
@@ -280,12 +293,25 @@ main .davider {
   color: #FFF8EE;
 }
 
+.section-5-2 a{
+  position: relative;
+  z-index: 5;
+  text-decoration-color: #ED7339;
+  color: #fff;
+}
+.section-5-2 .block-2 p:hover{
+  color: #ED7339;
+  position: relative;
+  z-index: 5;
+}
 .section-5-2 .block-2 p {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
   color: #FFF8EE;
+  position: relative;
+  z-index: 5;
 }
 
 
@@ -611,6 +637,7 @@ footer {}
   .section-4 lottie-player {
     height: 280px;
     padding-bottom: 20px;
+    margin-top: 50px;
   }
   .section-5 .arrows-w {
     display: none;

@@ -103,6 +103,10 @@ header .animation {
   z-index: 3;
 }
 
+header .animation lottie-player {
+  width: 650px;
+  height: 650px;
+}
 
 /*____________________________________________Header_____________________________________*/
 

@@ -70,6 +70,9 @@ header {
   margin-left: 0px;
   height: 5px;
 }
+.section-2 .card hr {
+  height: 3px;
+}
 
 .section-1 .row-1 h3,
 .section-1 .row-2 h3 {
@@ -100,7 +103,8 @@ header {
   justify-content: flex-end;
 }
 
-lottie-player {
+header lottie-player {
+  width: 650px;
   height: 650px;
 }
 .section-1 .row-3 img {
@@ -181,56 +185,6 @@ lottie-player {
 }
 
 
-/* animeation */
-@property --num {
-  syntax: "<integer>";
-  initial-value: 20;
-  inherits: false;
-}
-
-#value1::after {
-  content: counter(count);
-  animation: counter 1s linear 1 normal;
-  animation-direction: normal;
-  counter-reset: count 1;
-}
-
-@keyframes counter {
-  0% {
-    counter-increment: count 20;
-  }
-  10% {
-    counter-increment: count 19;
-  }
-  20% {
-    counter-increment: count 18;
-  }
-  30% {
-    counter-increment: count 17;
-  }
-  40% {
-    counter-increment: count 16;
-  }
-  50% {
-    counter-increment: count 15;
-  }
-  60% {
-    counter-increment: count 14;
-  }
-  70% {
-    counter-increment: count 13;
-  }
-  80% {
-    counter-increment: count 12;
-  }
-  90% {
-    counter-increment: count 11;
-  }
-  100% {
-    counter-increment: count 0.001;
-  }
-}
-/* animeation */
 
 
 
@@ -375,8 +329,8 @@ lottie-player {
     background: #ED7339;
 }
 
-lottie-player {
-  width: 100%;
+.section-4 lottie-player {
+  margin-top: 150px;
 }
 
 .section-4 .block:nth-child(1) {
@@ -485,6 +439,7 @@ main .full-davider{
   font-size: 24px;
   line-height: 36px;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .section-5 .card-text p {
@@ -845,6 +800,7 @@ footer {}
   .section-4 lottie-player {
     height: 280px;
     padding-bottom: 20px;
+    margin-top: 50px;
   }
   .section-5 {
     margin-bottom: 50px;

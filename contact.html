@@ -48,9 +48,9 @@
       <div class="container">
         <div class="text-title">
           <h2>LET’S TALK</h2>
-          <p>Our 6th generation Al impacts our day to day in ways most don't even consider possible- Arden predicts sales volume.</p>
+          <p>Let's set up a call to see if we'd be a good fit for each other. We'll do research on your brand and come prepared to discuss how we can help.</p>
           <h4>REQUEST A CALL</h4>
-          <p>Our 6th generation Al impacts our day to day in ways most don't even consider possible- Arden predicts sales volume. Our 6th generation Al impacts our day to day in ways most don't even consider possible- Arden predicts sales volume.</p>
+          <p>Once you fill out the form, we'll gather some information on your brand and be in touch within 2 business days to set up a call with your team.</p>
         </div>
         <div class="animation">
           <script src="js/lottie-player.js"></script>
@@ -59,27 +59,34 @@
         <div class="form">
           <h4>REQUEST A CALL</h4>
           <br>
-          <p>Our 6th generation Al impacts our day to day in ways most don't even consider possible- Arden predicts sales volume.</p>
+          <p>We're looking forward to hearing from you! Fill out the form below to set up a meeting with our team.</p>
           <br>
           <form class="" action="index.html" method="post">
             <input type="name" name="name" required placeholder="First Name" value="">
-            <input type="name" name="name" required placeholder="Last Name"  value="">
+            <input type="name" name="company_name" required placeholder="Company Name"  value="">
             <input type="email" name="email" required placeholder="Email"  value="">
             <input type="phone" name="phone" required placeholder="Phone Number"  value="">
             <select>
-              <option>I am a</option>
-              <option>I'm</option>
+              <option>I'm looking for a...</option>
+              <option>Not sure</option>
+              <option>Retail Partner</option>
+              <option>Software Partner</option>
+              <option>Optimization Partner</option>
             </select>
             <div class="bage-approved"> <img src="img/approved.svg" alt="">Success</div>
             <br>
             <div class="bage-error"><img src="img/error.svg" alt="">Error</div>
+            <label>
+            <input type="checkbox" checked>
+            Our 6th generation Al impacts our day to day
+            </label>
             <button class="btn-black" href="#">Submit</button>
           </form>
 
         </div>
       </div>
     </div>
-    <section class="container section-1-4">
+    <!-- <section class="container section-1-4">
       <h3>— We serve amazing brands</h3>
       <div class="block">
         <div class="row">
@@ -104,7 +111,7 @@
         </div>
       </div>
       <hr align="right" width="100%" color="#000">
-    </section>
+    </section> -->
     <section class="container section-5">
       <div class="title">
         <div class="row-1">
@@ -144,30 +151,24 @@
     </section>
     <section class="section-2-3">
       <div class="container">
-        <h3><span id="white">—</span> WE TREAT YOUR BRAND LIKE OUR BRAND</h3>
+        <h3><span id="white">—</span> WE TREAT YOUR BRAND</h3>
         <div class="block-1">
         </div>
         <div class="block-2">
           <div class="card">
-            <h4>OVER</h4>
-            <hr align="right" width="100%" color="#4C4C4C" />
-            <h2>$1B</h2>
-            <p>Retal Sales</p>
+            <div class="count"><h2 id="qw" class="counter-drob" data-count="0.001">20</h2><h5>%</h5></div>
+            <p>Order Defect Rate</p>
           </div>
           <div class="card">
             <div class="card">
-              <h4>AVERAGE</h4>
-              <hr align="right" width="100%" color="#4C4C4C" />
-              <h2>30% LIFT</h2>
-              <p>In sales with Marketing</p>
+              <div class="count"><h2 id="qw" class="counter" data-count="52" >0</h2><h5>%</h5></div>
+              <p>Avg. Annual Increase In Brand Sales</p>
             </div>
           </div>
           <div class="card">
             <div class="card">
-              <h4>OVER</h4>
-              <hr align="right" width="100%" color="#4C4C4C" />
-              <h2>4K</h2>
-              <p>Brands Served</p>
+              <div class="count"><h2 id="qw" class="counter" data-count="99.95" >0</h2><h5>%</h5></div>
+              <p>Customer Satisfaction Rate</p>
             </div>
           </div>
         </div>
@@ -215,6 +216,7 @@
         <div class="line"></div>
       </div>
     </div>
+    <script type="text/javascript" src="js/counter.js"></script>
     <script src='js/jquery.min.js'></script><script  src="./js/script-b.js"></script>
   </body>
 </html>
