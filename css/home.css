@@ -58,7 +58,7 @@ header {
 
 .section-1 .text-arrow {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-etween;
 }
 
 .section-1 .text-arrow img {
