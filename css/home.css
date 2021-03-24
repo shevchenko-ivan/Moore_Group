@@ -63,6 +63,8 @@ header {
 
 .section-1 .text-arrow img {
   margin-right: -14px;
+  width: 30px;
+  height: 35px;
 }
 
 .section-1 .row-1 hr {
@@ -616,8 +618,8 @@ footer {}
     letter-spacing: 0.05em;
   }
   .section-2 .card img {
-    width: 60%;
-    height: 200px;
+    width: 175px;
+    height: 150px;
   }
   .section-3 h2 {
     font-size: 48px;
@@ -680,6 +682,8 @@ footer {}
   .section-5 .arrow-davider {
     display: block;
     margin-top: 10px;
+    max-width: 25px;
+    max-height: 76px;
     margin-bottom: 10px;
   }
   .section-5 .card-text {

@@ -65,6 +65,11 @@ footer .row-2 {
   padding-top: 100px;
 }
 
+footer .row-1 .logo{
+  width: 324px;
+  height: 88px;
+}
+
 footer .row-2 p {
   font-style: normal;
   font-weight: normal;
@@ -219,6 +224,10 @@ footer .row-1 input::placeholder {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
     grid-gap: 0;
+  }
+  footer .row-1 .logo{
+    width: 162px;
+    height: 44px;
   }
   footer .follow-us {
     margin-top: 30px;
