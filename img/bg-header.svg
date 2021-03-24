@@ -1,4 +1,1 @@
-<svg width="1920" height="937" viewBox="0 0 1920 937" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="81" width="1920" height="856" fill="#3C2829"/>
-<rect y="81" width="960" height="856" fill="#F6B289"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="937" fill="none"  xmlns:v="https://vecta.io/nano"><path fill="#3c2829" d="M0 81h1920v856H0z"/><path fill="#f6b289" d="M0 81h960v856H0z"/></svg>
