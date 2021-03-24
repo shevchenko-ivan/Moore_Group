@@ -57,7 +57,7 @@ p {
   color: #fff;
 }
 
-#sm-h2{
+#sm-h2 {
   font-size: 48px;
   line-height: 72px;
 }
@@ -136,12 +136,13 @@ p {
   color: #FFF8EE;
 }
 
-.section-2-3 .count{
+.section-2-3 .count {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
 }
-.section-2-3 .count h5{
+
+.section-2-3 .count h5 {
   color: #FFF8EE;
   font-size: 35px;
   line-height: 35px;
@@ -381,11 +382,14 @@ a.feedback-slide_btn {
   color: #000000;
 }
 
-.section-5-3 h4 a{
+.section-5-3 h4 a {
   color: #000000;
   text-decoration-color: #ED7339;
 }
 
+.section-5-3 h4 a:hover {
+  color: #ED7339;
+}
 
 .section-5-3 .text {
   grid-column: 2 / 5;
@@ -467,7 +471,9 @@ a.feedback-slide_btn {
   .section-2-3 .card h4 {
     padding-top: 60px;
   }
-    .section-2-3 .container .block-2 .card{ margin-top: 20px;}
+  .section-2-3 .container .block-2 .card {
+    margin-top: 20px;
+  }
   /*____________________________________________---3↓---_____________________________________*/
   .section-3-3 {
     margin-top: 50px;
@@ -540,15 +546,17 @@ a.feedback-slide_btn {
   }
 }
 
-.section-2-3 .count{
+.section-2-3 .count {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
 }
-.section-2-3 .count h5{
+
+.section-2-3 .count h5 {
   color: #FFF8EE;
   font-size: 35px;
   line-height: 35px;
 }
+
 
 /*____________________________________________---Adaptive---_____________________________________*/

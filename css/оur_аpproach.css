@@ -11,8 +11,6 @@ a:hover {
 
 /*____________________________________________linde-bg_____________________________________*/
 
-
-
 .lines-bg .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -230,19 +228,30 @@ main .davider {
   font-size: 18px;
   line-height: 173%;
   color: #877672;
-
+  position: relative;
+  z-index: 5;
 }
 
-.section-5-2 .block-1 a{
-  text-decoration-color: #ED7339;
-}
-.section-5-2 .block-1 a:hover{
+.section-5-2 .block-1 .secondary-text:hover {
   color: #ED7339;
 }
 
-.section-5-2 .block-1 .main-text a{
-    color: #fff;
+.section-5-2 .block-1 a {
+  text-decoration-color: #ED7339;
 }
+
+.section-5-2 .block-1 a:hover {
+  color: #ED7339;
+}
+
+.section-5-2 .block-1 .main-text a {
+  color: #fff;
+}
+
+.section-5-2 .block-1 .main-text a:hover {
+  color: #ED7339;
+}
+
 .section-5-2 .block-1 .main-text {
   margin-top: 15px;
   font-style: normal;
@@ -263,12 +272,13 @@ main .davider {
   color: #ED7339;
 }
 
-.section-5-2 .count{
+.section-5-2 .count {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
 }
-.section-5-2 .count h5{
+
+.section-5-2 .count h5 {
   color: #FFF8EE;
   font-size: 35px;
   line-height: 35px;
@@ -293,17 +303,19 @@ main .davider {
   color: #FFF8EE;
 }
 
-.section-5-2 a{
+.section-5-2 a {
   position: relative;
   z-index: 5;
   text-decoration-color: #ED7339;
   color: #fff;
 }
-.section-5-2 .block-2 p:hover{
+
+.section-5-2 .block-2 p:hover {
   color: #ED7339;
   position: relative;
   z-index: 5;
 }
+
 .section-5-2 .block-2 p {
   font-style: normal;
   font-weight: normal;

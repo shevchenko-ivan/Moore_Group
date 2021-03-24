@@ -11,7 +11,6 @@ a:hover {
 
 /*____________________________________________linde-bg_____________________________________*/
 
-
 .lines-bg .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -70,6 +69,7 @@ header {
   margin-left: 0px;
   height: 5px;
 }
+
 .section-2 .card hr {
   height: 3px;
 }
@@ -107,6 +107,7 @@ header lottie-player {
   width: 650px;
   height: 650px;
 }
+
 .section-1 .row-3 img {
   margin-top: 20px;
 }
@@ -184,10 +185,6 @@ header lottie-player {
   background-size: 100% 100%;
 }
 
-
-
-
-
 .section-3 .row-1 {
   padding-top: 100px;
   display: flex;
@@ -204,12 +201,13 @@ header lottie-player {
   color: #ED7339;
 }
 
-.section-3 .count{
+.section-3 .count {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
 }
-.section-3 .count h5{
+
+.section-3 .count h5 {
   color: #FFF8EE;
   font-size: 35px;
   line-height: 35px;
@@ -324,9 +322,8 @@ header lottie-player {
   color: #FFF8EE;
 }
 
-
 .section-4 .btn-black:hover {
-    background: #ED7339;
+  background: #ED7339;
 }
 
 .section-4 lottie-player {
@@ -350,10 +347,12 @@ main .davider {
   height: 5px;
   margin-top: -7px;
 }
-main .full-davider{
+
+main .full-davider {
   display: none;
   height: 5px;
 }
+
 
 /*____________________________________________--4--_____________________________________*/
 
@@ -386,7 +385,6 @@ main .full-davider{
 .section-5 .card-text .btn-black:hover {
   background-color: #ED7339;
 }
-
 
 .section-5 h3 {
   width: 100%;
@@ -471,7 +469,7 @@ main .full-davider{
   color: #FFF8EE;
 }
 
-.section-5 .arrow-davider{
+.section-5 .arrow-davider {
   display: none;
 }
 
@@ -525,12 +523,11 @@ footer {}
   .davider {
     display: none;
   }
-  main .full-davider{
+  main .full-davider {
     display: block;
     height: 3px;
     margin-top: 35px;
   }
-
   .section-5 {
     margin-top: 50px;
   }
@@ -680,20 +677,18 @@ footer {}
     height: 50px;
     margin-top: 50px;
   }
-
-  .section-5 .arrow-davider{
+  .section-5 .arrow-davider {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .section-5 .card-text{
-        width: 100%;
+  .section-5 .card-text {
+    width: 100%;
   }
-  .section-5 .cards{
+  .section-5 .cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
   }
   .section-5 .card-text .btn-black {
     font-size: 16px;

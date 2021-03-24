@@ -77,7 +77,6 @@ p {
   z-index: 3;
 }
 
-
 .form h4 {
   margin-top: 180px;
   font-weight: 600;
@@ -97,6 +96,7 @@ p {
 .form .input-error {
   border: 3px solid #EB5757;
 }
+
 .form input {
   position: relative;
   z-index: 4;
@@ -154,14 +154,16 @@ p {
   border-radius: 4px;
 }
 
-.bage-approved{
-    background-color: #27AE60;
+.bage-approved {
+  background-color: #27AE60;
 }
-.bage-error{
+
+.bage-error {
   background-color: #EB5757;
 }
 
-.bage-approved, .bage-error{
+.bage-approved,
+.bage-error {
   width: 94%;
   height: 35px;
   border-radius: 7px;
@@ -171,7 +173,8 @@ p {
   padding-left: 8px;
 }
 
-.bage-approved img, .bage-error img{
+.bage-approved img,
+.bage-error img {
   margin-right: 10px;
 }
 
@@ -181,7 +184,8 @@ p {
   line-height: 170%;
   color: #3C2829;
 }
-.animation lottie-player  {
+
+.animation lottie-player {
   max-height: 60%;
   max-width: 132px;
 }
@@ -310,16 +314,18 @@ p {
 
 /*____________________________________________---2---_____________________________________*/
 
-.section-2-3 .count{
+.section-2-3 .count {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
 }
-.section-2-3 .count h5{
+
+.section-2-3 .count h5 {
   color: #FFF8EE;
   font-size: 35px;
   line-height: 35px;
 }
+
 
 /*____________________________________________---5---_____________________________________*/
 
@@ -330,6 +336,7 @@ p {
 .section-5 .btn-black:hover {
   background-color: #ED7339;
 }
+
 
 /*____________________________________________---5---_____________________________________*/
 
@@ -353,7 +360,8 @@ footer {
   .form select {
     width: 100%;
   }
-  .bage-approved, .bage-error{
+  .bage-approved,
+  .bage-error {
     width: 100%;
   }
 }
@@ -370,7 +378,7 @@ footer {
     justify-content: center;
     height: 240px;
   }
-  .animation lottie-player  {
+  .animation lottie-player {
     max-height: 340px;
     width: 70px;
   }
@@ -487,7 +495,9 @@ footer {
   .section-2-3 .container .block-2 .card:nth-child(3) {
     grid-column: 1 / 1;
   }
-  .section-2-3 .container .block-2 .card{ margin-top: 20px;}
+  .section-2-3 .container .block-2 .card {
+    margin-top: 20px;
+  }
   .section-2-3 h3 {
     padding-bottom: 0;
   }
