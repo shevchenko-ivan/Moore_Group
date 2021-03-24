@@ -150,9 +150,14 @@ header .animation lottie-player {
     line-height: 150%;
     margin-top: 20px;
   }
-  header .animation {
-    width: 350px;
-    height: 350px;
+  header .animation{
+    display: flex;
+    justify-content: center;
+  }
+  header .animation lottie-player {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
   }
   header .title-animation {
     padding-top: 150px;
@@ -166,6 +171,15 @@ header .animation lottie-player {
   header .title-animation {
     padding: 20px;
     padding-top: 100px;
+  }
+  header .animation{
+    display: flex;
+    justify-content: center;
+  }
+  header .animation lottie-player {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
   }
   header .top .links {
     display: none;
