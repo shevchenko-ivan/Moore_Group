@@ -333,6 +333,13 @@ p {
   margin-bottom: 100px;
 }
 
+.section-5 .row-1 img {
+  margin-right: -14px;
+  z-index: 2;
+  width: 30px;
+  height: 35px;
+}
+
 .section-5 .btn-black:hover {
   background-color: #ED7339;
 }

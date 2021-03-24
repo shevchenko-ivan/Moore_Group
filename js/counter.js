@@ -4,8 +4,6 @@ window.addEventListener('scroll', function(e) {
   console.log('window.scrollY', window.scrollY)
 
   if(window.scrollY > lastEl.offsetTop - 1000) {
-    
-// найти елемен уникальний блок на хтмл (section-3) добавляю клас колед(визивався)
     $('.counter').each(function() {
       var $this = $(this),
           countTo = $this.attr('data-count');
@@ -24,24 +22,9 @@ window.addEventListener('scroll', function(e) {
         }
       });
     });
-
-    $('.counter-drob').each(function() {
-      var $this = $(this),
-          countTo = $this.attr('data-count');
-      $({ countNum: $this.text()}).animate({
-        countNum: countTo
-      },
-
-      {
-        duration: 1000,
-        easing:'linear',
-        step: function() {
-          $this.text(Math.floor(this.countNum));
-        },
-        complete: function() {
-          $this.text(this.countNum.toFixed(3));
-        }
-      });
-    });
   }
 });
+
+
+
+// найти елемен уникальний блок на хтмл (section-3) добавляю клас колед(визивався)
