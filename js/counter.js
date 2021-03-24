@@ -4,6 +4,7 @@ window.addEventListener('scroll', function(e) {
   console.log('window.scrollY', window.scrollY)
 
   if(window.scrollY > lastEl.offsetTop - 1000) {
+    
 // найти елемен уникальний блок на хтмл (section-3) добавляю клас колед(визивався)
     $('.counter').each(function() {
       var $this = $(this),
