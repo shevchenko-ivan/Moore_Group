@@ -114,6 +114,7 @@ p {
 }
 
 .form input::placeholder {
+  margin-top: 50px;
   font-size: 18px;
   line-height: 173%;
   color: #3c2829
