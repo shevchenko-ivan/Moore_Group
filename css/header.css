@@ -60,9 +60,9 @@ header .top .container {
 }
 
 header .links a {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
+  font-style: normal;
   font-size: 18px;
   line-height: 27px;
   color: #000;

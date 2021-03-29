@@ -1,88 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Our Approach</title>
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/оur_аpproach.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-    <link rel="stylesheet" type="text/css" href="css/style-b.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" >
-    <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-  </head>
-  <body>
-    <header id="h-height">
-      <div class="top">
-        <!-- partial:index.partial.html -->
-        <div class="burger">
-          <span></span>
-        </div>
-        <nav>
-          <ul class="main">
-            <li><a class="cl" href="index.html">Homepage</a></li>
-            <li><a class="cl" href="оur_аpproach.html">Our Approach</a></li>
-            <li><a class="cl" href="about.html">About</a></li>
-            <li><a class="cl" id="active-link" href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="overlay"></div>
-        <!-- partial -->
-        <div class="container">
-          <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
-          <div class="links">
-            <a href="index.html">Homepage</a>
-            <a href="оur_аpproach.html">Our Approach</a>
-            <a href="about.html">About</a>
-            <a id="active-link" href="contact.html">Contact</a>
-          </div>
-        </div>
+
+<head>
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-ExtraBold.woff') format('woff');
+      font-weight: 800;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Black.woff') format('woff');
+      font-weight: 900;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-BlackItalic.woff') format('woff');
+      font-weight: 900;
+      font-style: italic;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Bold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-ExtraBoldItalic.woff') format('woff');
+      font-weight: 800;
+      font-style: italic;
+      font-display: fallback;
+    }
+
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-LightItalic.woff') format('woff');
+      font-weight: 300;
+      font-style: italic;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Italic.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Medium.woff') format('woff');
+      font-weight: 500;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Light.woff') format('woff');
+      font-weight: 300;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-SemiBold.woff') format('woff');
+      font-weight: 600;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Thin.woff') format('woff');
+      font-weight: 100;
+      font-style: normal;
+      font-display: fallback;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Our Approach</title>
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/оur_аpproach.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link rel="stylesheet" type="text/css" href="css/style-b.css">
+  <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+</head>
+
+<body>
+  <header id="h-height">
+    <div class="top">
+      <!-- partial:index.partial.html -->
+      <div class="burger">
+        <span></span>
       </div>
-    </header>
-    <div class="forms">
+      <nav>
+        <ul class="main">
+          <li><a class="cl" href="index.html">Homepage</a></li>
+          <li><a class="cl" href="оur_аpproach.html">Our Approach</a></li>
+          <li><a class="cl" href="about.html">About</a></li>
+          <li><a class="cl" id="active-link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="overlay"></div>
+      <!-- partial -->
       <div class="container">
-        <div class="text-title">
-          <h2>LET’S TALK</h2>
-          <p>Let's set up a call to see if we'd be a good fit for each other. We'll do research on your brand and come prepared to discuss how we can help.</p>
-          <h4>REQUEST A CALL</h4>
-          <p>Once you fill out the form, we'll gather some information on your brand and be in touch within 2 business days to set up a call with your team.</p>
-        </div>
-        <div class="animation">
-          <lottie-player id="bambook" background="transparent" speed="2" loop autoplay></lottie-player>
-        </div>
-        <div class="form">
-          <h4>REQUEST A CALL</h4>
-          <br>
-          <p>We're looking forward to hearing from you! Fill out the form below to set up a meeting with our team.</p>
-          <br>
-          <form class="" action="index.html" method="post">
-            <input type="name" name="name" required placeholder="First Name" value="">
-            <input type="name" name="company_name" required placeholder="Company Name"  value="">
-            <input type="email" name="email" required placeholder="Email"  value="">
-            <input type="phone" name="phone" required placeholder="Phone Number"  value="">
-            <select>
-              <option>I'm looking for a...</option>
-              <option>Not sure</option>
-              <option>Retail Partner</option>
-              <option>Software Partner</option>
-              <option>Optimization Partner</option>
-            </select>
-            <div class="bage-approved"> <img src="img/approved.svg" alt="">Success</div>
-            <br>
-            <div class="bage-error"><img src="img/error.svg" alt="">Error</div>
-            <label>
-            <input type="checkbox" checked>
-            Our 6th generation Al impacts our day to day
-            </label>
-            <button class="btn-black" href="#">Submit</button>
-          </form>
+        <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+        <div class="links">
+          <a href="index.html">Homepage</a>
+          <a href="оur_аpproach.html">Our Approach</a>
+          <a href="about.html">About</a>
+          <a id="active-link" href="contact.html">Contact</a>
         </div>
       </div>
     </div>
-    <!-- <section class="container section-1-4">
+  </header>
+  <div class="forms">
+    <div class="container">
+      <div class="text-title">
+        <h2>LET’S TALK</h2>
+        <p>Let's set up a call to see if we'd be a good fit for each other. We'll do research on your brand and come
+          prepared to discuss how we can help.</p>
+        <h4>REQUEST A CALL</h4>
+        <p>Once you fill out the form, we'll gather some information on your brand and be in touch within 2 business
+          days to set up a call with your team.</p>
+      </div>
+      <div class="animation">
+        <lottie-player id="bambook" background="transparent" speed="2" loop autoplay></lottie-player>
+      </div>
+      <div class="form">
+        <h4>REQUEST A CALL</h4>
+        <br>
+        <p>We're looking forward to hearing from you! Fill out the form below to set up a meeting with our team.</p>
+        <br>
+        <form class="" action="index.html" method="post">
+          <input type="name" name="name" required placeholder="First Name" value="">
+          <input type="name" name="company_name" required placeholder="Company Name" value="">
+          <input type="email" name="email" required placeholder="Email" value="">
+          <input type="phone" name="phone" required placeholder="Phone Number" value="">
+          <select>
+            <option>I'm looking for a...</option>
+            <option>Not sure</option>
+            <option>Retail Partner</option>
+            <option>Software Partner</option>
+            <option>Optimization Partner</option>
+          </select>
+          <div class="bage-approved"> <img src="img/approved.svg" alt="">Success</div>
+          <br>
+          <div class="bage-error"><img src="img/error.svg" alt="">Error</div>
+          <label>
+            <input type="checkbox" checked>
+            Our 6th generation Al impacts our day to day
+          </label>
+          <button class="btn-black" href="#">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- <section class="container section-1-4">
       <h3>— We serve amazing brands</h3>
       <div class="block">
         <div class="row">
@@ -108,125 +212,127 @@
       </div>
       <hr align="right" width="100%" color="#000">
       </section> -->
-    <section class="container section-5">
-      <div class="title">
-        <div class="row-1">
-          <h3>
-            &nbsp;&nbsp;&nbsp;
-            WHEN YOU WIN, WE WIN.
-          </h3>
-          <img src="img/arrow.svg" alt="arrow">
-        </div>
-        <div class="row-2">
-          <h4>
-            WE ONLY WORK WITH BRANDS THAT WE CAN WIN WITH. DISCOVER THE DIFFERENT WAYS WE CAN HELP GROW YOUR BRAND.
-          </h4>
-        </div>
-        <img class="arrows-w" src="img/arrows-w.svg" alt="">
-        <div class="cards">
-          <div class="card-text">
-            <h4>RETAIL PARTNER</h4>
-            <p>We purchase inventory from you. We grow your brand + sell your inventory.</p>
-            <hr align="right" width="100%" color="#000">
-            <a href="оur_аpproach.html" class="link-button"><button class="btn-black" >Learn more</button> </a>
-          </div>
-          <div class="card-text">
-            <h4>OPTIMIZATION PARTNER</h4>
-            <p>You keep your inventory. You sell it online. We help you sell it better with our custom software tools + analytics.</p>
-            <hr align="right" width="100%" color="#000">
-            <a href="оur_аpproach.html" class="link-button"><button class="btn-black" >Learn more</button> </a>
-          </div>
-          <div class="card-text">
-            <h4>MARKETING PARTNER</h4>
-            <p>You keep your inventory. We help you sell it online.</p>
-            <hr align="right" width="100%" color="#000">
-            <a href="оur_аpproach.html" class="link-button"><button class="btn-black" >Learn more</button> </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section-2-3">
-      <div class="container">
-        <h3><span id="white">—</span> WE TREAT YOUR BRAND</h3>
-        <div class="block-1">
-        </div>
-        <div class="block-2">
-          <div class="card">
-            <div class="count">
-              <h2>0.00</h2>
-              <h2 id="qw" class="counter" data-count="1">20</h2>
-              <h5>%</h5>
-            </div>
-            <p>Order Defect Rate</p>
-          </div>
-          <div class="card">
-            <div class="card">
-              <div class="count">
-                <h2 id="qw" class="counter" data-count="52" >0</h2>
-                <h5>%</h5>
-              </div>
-              <p>Avg. Annual Increase In Brand Sales</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card">
-              <div class="count">
-                <h2 id="qw" class="counter" data-count="99">0</h2>
-                <h2>.95</h2>
-                <h5>%</h5>
-              </div>
-              <p>Customer Satisfaction Rate</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="container">
-      <div class="row row-1">
-        <div class="col-12 col-lg-4 col-xl-3">
-          <img class="logo" src="img/big-logo.svg" alt="logo">
-        </div>
-        <div class="col-12 col-lg-8 col-xl-6">
-          <div class="links">
-            <a href="index.html">Home</a>
-            <a href="оur_аpproach.html">Our Approach</a>
-            <div class="follow-us">
-              <h5>Follow us</h5>
-              <a href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
-            </div>
-            <a class="first" href="about.html">About</a>
-            <a class="secondary" id="active-link" href="contact.html">Contact</a>
-          </div>
-        </div>
-        <div class="col-12 col-lg-12 col-xl-3">
-          <div class="email-input">
-            <h5>STAY CONNECTED</h5>
-            <label>
-            <input type="email" name="email" placeholder="Your Email Address">
-            <button href="#" type="button" name="button"><img src="img/arrow-btn.svg" alt=""></button>
-            </label>
-          </div>
-        </div>
+  <section class="container section-5">
+    <div class="title">
+      <div class="row-1">
+        <h3>
+          &nbsp;&nbsp;&nbsp;
+          WHEN YOU WIN, WE WIN.
+        </h3>
+        <img src="img/arrow.svg" alt="arrow">
       </div>
       <div class="row-2">
-        <a href="privacy-policy-v2-5215784.html">Privacy Policy</a>
-        <p>Moore Group</p>
-        <p>Copyright 2021</p>
+        <h4>
+          WE ONLY WORK WITH BRANDS THAT WE CAN WIN WITH. DISCOVER THE DIFFERENT WAYS WE CAN HELP GROW YOUR BRAND.
+        </h4>
       </div>
-    </footer>
-    <div class="container lines-bg">
-      <div class="container">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+      <img class="arrows-w" src="img/arrows-w.svg" alt="">
+      <div class="cards">
+        <div class="card-text">
+          <h4>RETAIL PARTNER</h4>
+          <p>We purchase inventory from you. We grow your brand + sell your inventory.</p>
+          <hr align="right" width="100%" color="#000">
+          <a href="оur_аpproach.html" class="link-button"><button class="btn-black">Learn more</button> </a>
+        </div>
+        <div class="card-text">
+          <h4>OPTIMIZATION PARTNER</h4>
+          <p>You keep your inventory. You sell it online. We help you sell it better with our custom software tools +
+            analytics.</p>
+          <hr align="right" width="100%" color="#000">
+          <a href="оur_аpproach.html" class="link-button"><button class="btn-black">Learn more</button> </a>
+        </div>
+        <div class="card-text">
+          <h4>MARKETING PARTNER</h4>
+          <p>You keep your inventory. We help you sell it online.</p>
+          <hr align="right" width="100%" color="#000">
+          <a href="оur_аpproach.html" class="link-button"><button class="btn-black">Learn more</button> </a>
+        </div>
       </div>
     </div>
-    <script src="js/lottie-player.js"></script>
-    <script src="js/animation-bambook.js"></script>
-    <script src='js/jquery.min.js'></script>
-    <script src="js/script-b.js"></script>
-    <script src="js/counter.js"></script>
-  </body>
+  </section>
+  <section class="section-2-3">
+    <div class="container">
+      <h3><span id="white">—</span> WE TREAT YOUR BRAND</h3>
+      <div class="block-1">
+      </div>
+      <div class="block-2">
+        <div class="card">
+          <div class="count">
+            <h2>0.00</h2>
+            <h2 id="qw" class="counter" data-count="1">20</h2>
+            <h5>%</h5>
+          </div>
+          <p>Order Defect Rate</p>
+        </div>
+        <div class="card">
+          <div class="card">
+            <div class="count">
+              <h2 id="qw" class="counter" data-count="52">0</h2>
+              <h5>%</h5>
+            </div>
+            <p>Avg. Annual Increase In Brand Sales</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card">
+            <div class="count">
+              <h2 id="qw" class="counter" data-count="99">0</h2>
+              <h2>.95</h2>
+              <h5>%</h5>
+            </div>
+            <p>Customer Satisfaction Rate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="container">
+    <div class="row row-1">
+      <div class="col-12 col-lg-4 col-xl-3">
+        <img class="logo" src="img/big-logo.svg" alt="logo">
+      </div>
+      <div class="col-12 col-lg-8 col-xl-6">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="оur_аpproach.html">Our Approach</a>
+          <div class="follow-us">
+            <h5>Follow us</h5>
+            <a href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
+          </div>
+          <a class="first" href="about.html">About</a>
+          <a class="secondary" id="active-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-12 col-xl-3">
+        <div class="email-input">
+          <h5>STAY CONNECTED</h5>
+          <label>
+            <input type="email" name="email" placeholder="Your Email Address">
+            <button href="#" type="button" name="button"><img src="img/arrow-btn.svg" alt=""></button>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="row-2">
+      <a href="privacy-policy-v2-5215784.html">Privacy Policy</a>
+      <p>Moore Group</p>
+      <p>Copyright 2021</p>
+    </div>
+  </footer>
+  <div class="container lines-bg">
+    <div class="container">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <script src="js/lottie-player.js"></script>
+  <script src="js/animation-bambook.js"></script>
+  <script src='js/jquery.min.js'></script>
+  <script src="js/script-b.js"></script>
+  <script src="js/counter.js"></script>
+</body>
+
 </html>

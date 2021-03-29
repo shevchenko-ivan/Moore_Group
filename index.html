@@ -1,268 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" >
-    <link rel="stylesheet" type="text/css" href="css/style-b.css">
-    <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
-    </head>
-  <body>
-    <script defer src="js/lottie-player.js"></script>
-    <script defer src="js/animation.js"></script>
-    <header>
-      <div class="top">
-        <!-- partial:index.partial.html -->
-        <div class="burger">
-          <span></span>
-        </div>
-        <nav>
-          <ul class="main">
-            <li><a class="cl" id="active-link" href="index.html">Homepage</a></li>
-            <li><a class="cl" href="оur_аpproach.html">Our Approach</a></li>
-            <li><a class="cl" href="about.html">About</a></li>
-            <li><a class="cl" href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="overlay"></div>
-        <!-- partial -->
-        <div class="container">
-          <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
-          <div class="links">
-            <a id="active-link" href="index.html">Homepage</a>
-            <a href="оur_аpproach.html">Our Approach</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-          </div>
-        </div>
+
+<head>
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-ExtraBold.woff') format('woff');
+      font-weight: 800;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Black.woff') format('woff');
+      font-weight: 900;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-BlackItalic.woff') format('woff');
+      font-weight: 900;
+      font-style: italic;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Bold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-ExtraBoldItalic.woff') format('woff');
+      font-weight: 800;
+      font-style: italic;
+      font-display: fallback;
+    }
+
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-LightItalic.woff') format('woff');
+      font-weight: 300;
+      font-style: italic;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Italic.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Medium.woff') format('woff');
+      font-weight: 500;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Light.woff') format('woff');
+      font-weight: 300;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-SemiBold.woff') format('woff');
+      font-weight: 600;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('./fonts/Poppins-Thin.woff') format('woff');
+      font-weight: 100;
+      font-style: normal;
+      font-display: fallback;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homepage</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/fonts.css" > -->
+  <link rel="stylesheet" type="text/css" href="css/style-b.css">
+  <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+  <script defer src="js/lottie-player.js"></script>
+  <script defer src="js/animation.js"></script>
+  <header>
+    <div class="top">
+      <!-- partial:index.partial.html -->
+      <div class="burger">
+        <span></span>
       </div>
-      <div class="container title-animation">
-        <div class="row justify-content-between">
-          <div class="col-12 col-md-5 title">
-            <h1>EXPONENTIAL</h1>
-            <h2>GROWTH STARTS<br>HERE.</h2>
-            <hr align="left" width="90%" color="#FFF8EE" />
-            <p>The only eCommerce partner you'll ever need. Maximize your brand's digital market share.</p>
-          </div>
-          <div class="col-12 col-md-7 animation">
-            <lottie-player id="human" background="transparent" speed="1" loop autoplay></lottie-player>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section class="container section-1">
-        <div class="row">
-          <div class="col-12 text-arrow">
-            <div class="row-1">
-              <hr align="left" width="75px" height="5px" color="#000"  />
-              <h3>HOW WE CRUSH YOUR COMPETITION</h3>
-            </div>
-            <img src="img/arrow.svg" alt="arrow">
-          </div>
-        </div>
-        <div class="row row-2">
-          <div class="col-12 col-lg-7">
-            <h3>WITH A DATA-DRIVEN APPROACH</h3>
-          </div>
-          <div class="col-0 col-lg-5 ">
-            <hr align="right" width="98.5%" color="#000" />
-          </div>
-        </div>
-        <div class="row row-3">
-          <img src="img/arrow-down.svg" alt="arrow">
-        </div>
-      </section>
-      <section class="container section-2">
-        <div class="card">
-          <img src="img/card-img-1.svg" alt="DATA LEADS THE WAY">
-          <hr align="right" width="100%" color="#000" />
-          <h5>DATA LEADS THE WAY</h5>
-          <p>Our data-driven approach enables the correct decision to be made, every time, 24/7/365.</p>
-        </div>
-        <div class="card">
-          <img src="img/card-img-2.svg" alt="DATA LEADS THE WAY">
-          <hr align="right" width="100%" color="#000" />
-          <h5>BRAND PROTECTION</h5>
-          <p>Your brand's reptuation is of utmost importance. We uphold and help enforce MAP policies, as well as helping control unauthorized sellers.</p>
-        </div>
-        <div class="card">
-          <img src="img/card-img-3.svg" alt="DATA LEADS THE WAY">
-          <hr align="right" width="100%" color="#000" />
-          <h5>GLOBAL SUPPLY CHAIN CAPABILITIES</h5>
-          <p>Expand your market share in the US, and around the globe. </p>
-        </div>
-        <div class="card">
-          <img src="img/card-img-4.svg" alt="DATA LEADS THE WAY">
-          <hr align="right" width="100%" color="#000" />
-          <h5>CATALOG EXPANSION</h5>
-          <p>We aren't scared of new products.
-            We'll help you optimize your best sellers, while
-            expanding your catalog online.
-          </p>
-        </div>
-        <div class="card">
-          <img src="img/card-img-5.svg" alt="DATA LEADS THE WAY">
-          <hr align="right" width="100%" color="#000" />
-          <h5>FORECASTING & AUTOMATION</h5>
-          <p>Know the unknown. Precise sales forecasting
-            across your entire catalogue, with automated
-            reporting & product recommendations.
-          </p>
-        </div>
-      </section>
-      <section class="section-3">
-        <div class="container">
-          <div class="row-1">
-            <hr align="left" width="75px" height="5px" color="#FFF8EE"  />
-            <h3>WE TREAT YOUR BRAND</h3>
-          </div>
-          <h3>LIKE OUR BRAND</h3>
-          <div class="row-2">
-            <div class="box">
-              <div class="count">
-                <h2>0.00</h2>
-                <h2 id="qw" class="counter" data-count="1">20</h2>
-                <h5>%</h5>
-              </div>
-              <p>Order Defect Rate</p>
-            </div>
-            <div class="box">
-              <div class="count">
-                <h2 id="qw" class="counter" data-count="52" >0</h2>
-                <h5>%</h5>
-              </div>
-              <p>Avg. Annual Increase In Brand Sales</p>
-            </div>
-            <div class="box">
-              <div class="count">
-                <h2 id="qw" class="counter" data-count="99">0</h2>
-                <h2>.95</h2>
-                <h5>%</h5>
-              </div>
-              <p>Customer Satisfaction Rate</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container section-4">
-        <div class="block">
-          <div class="row-1">
-            <hr align="left" height="5px" color="#000"  />
-            <h3>Say hello to Arden.</h3>
-          </div>
-          <p>
-            Our 6th generation Al impacts our day to day in ways most don't even consider possible. Arden predicts sales volume, manages inventory levels, identifies in-demand product attributes along with pricing trends of the competition, and we're just getting started <br> <br> Arden, a machine learning model based on random forests, is able to easily replicate and improve upon the human decision-making process. Individually calibrated by each brand's products and millions of data points, our Al is able to optimize sales volume, protect your brand, and keep you in the know.
-          </p>
-          <a href="оur_аpproach.html"><button class="btn-black" >Our approach</button></a>
-        </div>
-        <div class="block">
-          <img src="img/bamboo.svg" alt="bamboo">
-        </div>
-        <div class="block animation-2">
-          <div class="row-1-2">
-            <h3>Say hello to Arden.</h3>
-          </div>
-          <lottie-player id="bols" background="transparent" speed="1" loop autoplay></lottie-player>
-        </div>
-      </section>
-      <hr class="container davider" align="left" width="100%" height="5px" color="#000"  />
-      <hr class="full-davider" align="left" width="100%" height="5px" color="#000"  />
-      <section class="container section-5">
-        <div class="title">
-          <div class="row-1">
-            <h3>
-              &nbsp;&nbsp;&nbsp;
-              WHEN YOU WIN, WE WIN.
-            </h3>
-            <img src="img/arrow.svg" alt="arrow">
-          </div>
-          <div class="row-2">
-            <h4>
-              WE ONLY WORK WITH BRANDS THAT WE CAN WIN WITH. DISCOVER THE DIFFERENT WAYS WE CAN HELP GROW YOUR BRAND.
-            </h4>
-          </div>
-          <img class="arrows-w" src="img/arrows-w.svg" alt="">
-          <div class="cards">
-            <img src="img/arrow-1.svg" alt="" class="arrow-davider">
-            <div class="card-text">
-              <h4>RETAIL PARTNER</h4>
-              <p>We purchase inventory from you. We grow your brand online and sell your inventory through a variety of different online channels.</p>
-              <hr align="right" width="100%" color="#000">
-              <a href="contact.html" class="link-button"><button class="btn-black" >Learn more</button> </a>
-            </div>
-            <img src="img/arrow-2.svg" alt="" class="arrow-davider">
-            <div class="card-text">
-              <h4>Software Partner</h4>
-              <p>You keep your inventory. You sell it yourself online,
-                and your team gets trained to utilize our software suite.
-              </p>
-              <hr align="right" width="100%" color="#000">
-              <a href="contact.html" class="link-button"><button class="btn-black" >Learn more</button> </a>
-            </div>
-            <img src="img/arrow-3.svg" alt="" class="arrow-davider">
-            <div class="card-text">
-              <h4>Optimization Partner</h4>
-              <p>You keep your inventory. We help you increase sales with our software suite and team of advisors.</p>
-              <hr align="right" width="100%" color="#000">
-              <a href="contact.html" class="link-button"><button class="btn-black" >Learn more</button> </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="container">
-      <div class="row row-1">
-        <div class="col-12 col-lg-4 col-xl-3">
-          <img class="logo" src="img/big-logo.svg" alt="logo">
-        </div>
-        <div class="col-12 col-lg-8 col-xl-6">
-          <div class="links">
-            <a id="active-link" href="index.html">Home</a>
-            <a href="оur_аpproach.html">Our Approach</a>
-            <div class="follow-us">
-              <h5>Follow us</h5>
-              <a href="https://www.linkedin.com/"><img src="img/linkedin.svg" alt="linkedin"></a>
-            </div>
-            <a class="first" href="about.html">About</a>
-            <a class="secondary" href="contact.html">Contact</a>
-          </div>
-        </div>
-        <div class="col-12 col-lg-12 col-xl-3">
-          <div class="email-input">
-            <h5>STAY CONNECTED</h5>
-            <label>
-            <input type="email" name="email" placeholder="Your Email Address">
-            <button href="#" type="button" name="button"><img src="img/arrow-btn.svg" alt=""></button>
-            </label>
-          </div>
-        </div>
-      </div>
-      <div class="row-2">
-        <a href="privacy-policy-v2-5215784.html">Privacy Policy</a>
-        <p>Moore Group</p>
-        <p>Copyright 2021</p>
-      </div>
-    </footer>
-    <div class="container lines-bg">
+      <nav>
+        <ul class="main">
+          <li><a class="cl" id="active-link" href="index.html">Homepage</a></li>
+          <li><a class="cl" href="оur_аpproach.html">Our Approach</a></li>
+          <li><a class="cl" href="about.html">About</a></li>
+          <li><a class="cl" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="overlay"></div>
+      <!-- partial -->
       <div class="container">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+        <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+        <div class="links">
+          <a id="active-link" href="index.html">Homepage</a>
+          <a href="оur_аpproach.html">Our Approach</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
       </div>
     </div>
+    <div class="container title-animation">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-5 title">
+          <h1>EXPONENTIAL</h1>
+          <h2>GROWTH STARTS<br>HERE.</h2>
+          <hr align="left" width="90%" color="#FFF8EE" />
+          <p>The only eCommerce partner you'll ever need. Maximize your brand's digital market share.</p>
+        </div>
+        <div class="col-12 col-md-7 animation">
+          <lottie-player id="human" background="transparent" speed="1" loop autoplay></lottie-player>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="container section-1">
+      <div class="row">
+        <div class="col-12 text-arrow">
+          <div class="row-1">
+            <hr align="left" width="75px" height="5px" color="#000" />
+            <h3>HOW WE CRUSH YOUR COMPETITION</h3>
+          </div>
+          <img src="img/arrow.svg" alt="arrow">
+        </div>
+      </div>
+      <div class="row row-2">
+        <div class="col-12 col-lg-7">
+          <h3>WITH A DATA-DRIVEN APPROACH</h3>
+        </div>
+        <div class="col-0 col-lg-5 ">
+          <hr align="right" width="98.5%" color="#000" />
+        </div>
+      </div>
+      <div class="row row-3">
+        <img src="img/arrow-down.svg" alt="arrow">
+      </div>
+    </section>
+    <section class="container section-2">
+      <div class="card">
+        <img src="img/card-img-1.svg" alt="DATA LEADS THE WAY">
+        <hr align="right" width="100%" color="#000" />
+        <h5>DATA LEADS THE WAY</h5>
+        <p>Our data-driven approach enables the correct decision to be made, every time, 24/7/365.</p>
+      </div>
+      <div class="card">
+        <img src="img/card-img-2.svg" alt="DATA LEADS THE WAY">
+        <hr align="right" width="100%" color="#000" />
+        <h5>BRAND PROTECTION</h5>
+        <p>Your brand's reptuation is of utmost importance. We uphold and help enforce MAP policies, as well as helping
+          control unauthorized sellers.</p>
+      </div>
+      <div class="card">
+        <img src="img/card-img-3.svg" alt="DATA LEADS THE WAY">
+        <hr align="right" width="100%" color="#000" />
+        <h5>GLOBAL SUPPLY CHAIN CAPABILITIES</h5>
+        <p>Expand your market share in the US, and around the globe. </p>
+      </div>
+      <div class="card">
+        <img src="img/card-img-4.svg" alt="DATA LEADS THE WAY">
+        <hr align="right" width="100%" color="#000" />
+        <h5>CATALOG EXPANSION</h5>
+        <p>We aren't scared of new products.
+          We'll help you optimize your best sellers, while
+          expanding your catalog online.
+        </p>
+      </div>
+      <div class="card">
+        <img src="img/card-img-5.svg" alt="DATA LEADS THE WAY">
+        <hr align="right" width="100%" color="#000" />
+        <h5>FORECASTING & AUTOMATION</h5>
+        <p>Know the unknown. Precise sales forecasting
+          across your entire catalogue, with automated
+          reporting & product recommendations.
+        </p>
+      </div>
+    </section>
+    <section class="section-3">
+      <div class="container">
+        <div class="row-1">
+          <hr align="left" width="75px" height="5px" color="#FFF8EE" />
+          <h3>WE TREAT YOUR BRAND</h3>
+        </div>
+        <h3>LIKE OUR BRAND</h3>
+        <div class="row-2">
+          <div class="box">
+            <div class="count">
+              <h2>0.00</h2>
+              <h2 id="qw" class="counter" data-count="1">20</h2>
+              <h5>%</h5>
+            </div>
+            <p>Order Defect Rate</p>
+          </div>
+          <div class="box">
+            <div class="count">
+              <h2 id="qw" class="counter" data-count="52">0</h2>
+              <h5>%</h5>
+            </div>
+            <p>Avg. Annual Increase In Brand Sales</p>
+          </div>
+          <div class="box">
+            <div class="count">
+              <h2 id="qw" class="counter" data-count="99">0</h2>
+              <h2>.95</h2>
+              <h5>%</h5>
+            </div>
+            <p>Customer Satisfaction Rate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container section-4">
+      <div class="block">
+        <div class="row-1">
+          <hr align="left" height="5px" color="#000" />
+          <h3>Say hello to Arden.</h3>
+        </div>
+        <p>
+          Our 6th generation Al impacts our day to day in ways most don't even consider possible. Arden predicts sales
+          volume, manages inventory levels, identifies in-demand product attributes along with pricing trends of the
+          competition, and we're just getting started <br> <br> Arden, a machine learning model based on random forests,
+          is able to easily replicate and improve upon the human decision-making process. Individually calibrated by
+          each brand's products and millions of data points, our Al is able to optimize sales volume, protect your
+          brand, and keep you in the know.
+        </p>
+        <a href="оur_аpproach.html"><button class="btn-black">Our approach</button></a>
+      </div>
+      <div class="block">
+        <img src="img/bamboo.svg" alt="bamboo">
+      </div>
+      <div class="block animation-2">
+        <div class="row-1-2">
+          <h3>Say hello to Arden.</h3>
+        </div>
+        <lottie-player id="bols" background="transparent" speed="1" loop autoplay></lottie-player>
+      </div>
+    </section>
+    <hr class="container davider" align="left" width="100%" height="5px" color="#000" />
+    <hr class="full-davider" align="left" width="100%" height="5px" color="#000" />
+    <section class="container section-5">
+      <div class="title">
+        <div class="row-1">
+          <h3>
+            &nbsp;&nbsp;&nbsp;
+            WHEN YOU WIN, WE WIN.
+          </h3>
+          <img src="img/arrow.svg" alt="arrow">
+        </div>
+        <div class="row-2">
+          <h4>
+            WE ONLY WORK WITH BRANDS THAT WE CAN WIN WITH. DISCOVER THE DIFFERENT WAYS WE CAN HELP GROW YOUR BRAND.
+          </h4>
+        </div>
+        <img class="arrows-w" src="img/arrows-w.svg" alt="">
+        <div class="cards">
+          <img src="img/arrow-1.svg" alt="" class="arrow-davider">
+          <div class="card-text">
+            <h4>RETAIL PARTNER</h4>
+            <p>We purchase inventory from you. We grow your brand online and sell your inventory through a variety of
+              different online channels.</p>
+            <hr align="right" width="100%" color="#000">
+            <a href="contact.html" class="link-button"><button class="btn-black">Learn more</button> </a>
+          </div>
+          <img src="img/arrow-2.svg" alt="" class="arrow-davider">
+          <div class="card-text">
+            <h4>Software Partner</h4>
+            <p>You keep your inventory. You sell it yourself online,
+              and your team gets trained to utilize our software suite.
+            </p>
+            <hr align="right" width="100%" color="#000">
+            <a href="contact.html" class="link-button"><button class="btn-black">Learn more</button> </a>
+          </div>
+          <img src="img/arrow-3.svg" alt="" class="arrow-davider">
+          <div class="card-text">
+            <h4>Optimization Partner</h4>
+            <p>You keep your inventory. We help you increase sales with our software suite and team of advisors.</p>
+            <hr align="right" width="100%" color="#000">
+            <a href="contact.html" class="link-button"><button class="btn-black">Learn more</button> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="container">
+    <div class="row row-1">
+      <div class="col-12 col-lg-4 col-xl-3">
+        <img class="logo" src="img/big-logo.svg" alt="logo">
+      </div>
+      <div class="col-12 col-lg-8 col-xl-6">
+        <div class="links">
+          <a id="active-link" href="index.html">Home</a>
+          <a href="оur_аpproach.html">Our Approach</a>
+          <div class="follow-us">
+            <h5>Follow us</h5>
+            <a href="https://www.linkedin.com/"><img src="img/linkedin.svg" alt="linkedin"></a>
+          </div>
+          <a class="first" href="about.html">About</a>
+          <a class="secondary" href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-12 col-xl-3">
+        <div class="email-input">
+          <h5>STAY CONNECTED</h5>
+          <label>
+            <input type="email" name="email" placeholder="Your Email Address">
+            <button href="#" type="button" name="button"><img src="img/arrow-btn.svg" alt=""></button>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="row-2">
+      <a href="privacy-policy-v2-5215784.html">Privacy Policy</a>
+      <p>Moore Group</p>
+      <p>Copyright 2021</p>
+    </div>
+  </footer>
+  <div class="container lines-bg">
+    <div class="container">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
 
-    <script src="js/animation-bols.js"></script>
-    <script src='js/jquery.min.js'></script>
-    <script src="js/script-b.js"></script>
-    <script src="js/counter.js"></script>
-  </body>
+  <script src="js/animation-bols.js"></script>
+  <script src='js/jquery.min.js'></script>
+  <script src="js/script-b.js"></script>
+  <script src="js/counter.js"></script>
+</body>
+
 </html>
