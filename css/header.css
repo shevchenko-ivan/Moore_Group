@@ -8,6 +8,9 @@
   display: none;
   margin-top: -10px
 }
+.main {
+  display: none;
+}
 
 .link-button {
   z-index: 5
@@ -124,6 +127,9 @@ header .animation lottie-player {
 @media(max-width:1024px) {
   .burger {
     display: block
+  }
+  .main {
+    display: block;
   }
   header .links {
     display: none

@@ -483,6 +483,7 @@ main .full-davider {
 }
 
 @media(max-width:1024px) {
+
   .lines-bg {
     display: none
   }
