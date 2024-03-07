@@ -185,9 +185,51 @@ header img {
 }
 
 @media(max-width:768px) {
+  .section-6-1 .block-1{
+    grid-column: 1 / 6;
+  }
+  .section-6-1 .block-2{
+    grid-column: 1 / 6;
+  }
+
+
+.section-6-3 .block-1{
+  grid-column: 1 / 6;
+}
+.section-6-3  img{
+  grid-row: 1;
+  grid-column: 1 / 6;
+  margin-top: 0px;
+}
+
+/* ———————————————————————————————————————————————————— */
+.section-6-2 {
+  margin-top: 60px;
+}
+
+/* ———————————————————————————————————————————————————— */
+  .section-6-3 {
+    margin-top: 60px;
+  }
+
+  .section-6-3 .content{
+    grid-row: 2;
+    grid-column: 1 / 6; /* Текст займає місце з 2 по 6 колонку */
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+
+  .section-6-3 .block-2{
+    margin-top: 60px;
+    grid-column: 1 / 6;
+    margin-bottom: 60px;
+  }
 
 }
 
 @media(max-width:576px) {
-
+  .section-6-1 {
+    margin-top: 100px;
+  }
 }

@@ -179,7 +179,9 @@
   </div> 
 
   <script>
-    function sendEmail() {window.location.href = "mailto:hiring@gomooregroup.com";}
+    function sendEmail() {
+    var subject = encodeURIComponent("Job Inquiry");
+    window.location.href = "mailto:hiring@gomooregroup.com?subject=" + subject;} 
   </script>
   <script src="js/animation.js"></script>
   <script src="js/jquery.min.js"></script>
